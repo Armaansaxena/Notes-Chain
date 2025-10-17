@@ -29,7 +29,7 @@ const WalletContextProvider = ({ children }: { children: ReactNode }) => {
             <header className="bg-lime-50 shadow-sm px-5 py-4 border-b border-gray-400">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-3">
-                  <Image src="image.png" alt="NotesChain Logo" className="w-12 h-12 object-contain"/>
+                  <img src="image.png" alt="NotesChain Logo" className="w-12 h-12 object-contain"/>
                   <h1 className="text-2xl font-bold text-gray-800">NotesChain</h1>
                 </div>
                 <WalletMultiButton />

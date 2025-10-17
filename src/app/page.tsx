@@ -402,13 +402,13 @@ export default function Home() {
                   <div className="text-sm text-gray-700">
                     Created At:{" "}
                     {new Date(
-                      note.account.createdAt.toNumber()
+                      note.account.createdAt.toNumber()*1000
                     ).toLocaleString()}
                   </div>
                   <div className="text-sm text-gray-700">
                     Last Updated:{" "}
                     {new Date(
-                      note.account.createdAt.toNumber()
+                      note.account.createdAt.toNumber()*1000
                     ).toLocaleString()}
                   </div>
 
